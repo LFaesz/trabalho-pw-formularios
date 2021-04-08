@@ -3,35 +3,29 @@
 <head>
     <meta charset="UTF-8">
     <title>Formulário</title>
-
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div>
-        <h2 id="title">
-            <i>Cadastro</i>
-        </h2>
-    </div>
+    <h1><i>Cadastro</i></h1>
 
     <form>
-        <div class="campo">
-            <label id="txtinfo" for="name"><strong>Nome</strong></label>
+        <div class="cases">
+            <label id="txtinfo"><strong>Nome</strong></label>
             <input placeholder="Insira seu nome" type="text" id="name" required>
         </div>
-        <div class="campo">
-            <label id="txtinfo" for="name"><strong>Email</strong></label>
+        <div class="cases">
+            <label id="txtinfo"><strong>Email</strong></label>
             <input placeholder="Insira seu email" type="email" id="email" required>
         </div>
-        <div class="campo">
-            <label id="txtinfo" for="name"><strong>Senha</strong></label>
+        <div class="cases">
+            <label id="txtinfo"><strong>Senha</strong></label>
             <input placeholder="Insira sua senha" type="password" id="senha" required>
         </div>
-        <div class="campo">
-            <a href="#">Esqueci minha senha</a>
+        <div class="cases">
+            <p>Já possui uma conta? <a href="#">Entre aqui</a></p>
         </div>
-
-        <div class="btn">
-            <button id="btn"><p class="btntxt">Cadastrar</p></button>
+        <div class="cases">
+            <button id="btn">Cadastrar</button>
         </div>
     </form>
 </body>
