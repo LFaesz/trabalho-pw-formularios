@@ -43,3 +43,13 @@ a{
 a:hover{
     color: rgb(104, 104, 104)
 }
+
+input::placeholder{
+    color: rgba(0, 0, 0, 0.63);
+    padding-left: 7px;
+    font-weight: bold;
+}
+
+input:placeholder-shown{
+    border: solid 2px rgb(255, 0, 0);
+}
