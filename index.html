@@ -10,19 +10,29 @@
 
     <form>
         <div class="cases">
-            <label id="txtinfo"><strong>Nome</strong></label>
-            <input placeholder="Insira seu nome" type="text" id="name" required>
+            <label id="txtinfo" for="name"><strong>Nome</strong></label>
+            <input class="boxText" placeholder="Insira seu nome" type="text" name="name" id="name" required>
         </div>
         <div class="cases">
-            <label id="txtinfo"><strong>Email</strong></label>
-            <input placeholder="Insira seu email" type="email" id="email" required>
+            <label id="txtinfo" for="email"><strong>Email</strong></label>
+            <input class="boxText" placeholder="Insira seu email" type="email" name="email" id="email" required>
         </div>
         <div class="cases">
-            <label id="txtinfo"><strong>Senha</strong></label>
-            <input placeholder="Insira sua senha" type="password" id="senha" required>
+            <label id="txtinfo" for="senha"><strong>Senha</strong></label>
+            <input class="boxText" placeholder="Insira sua senha"  type="password" name="senha" id="senha" required>
         </div>
         <div class="cases">
-            <p>Já possui uma conta? <a href="#">Entre aqui</a></p>
+            <div class="casesGender">
+                <input class="radios" name="gender" type="radio" id="masc">
+                <label for="masc">Masculino</label>
+                <input class="radios" name="gender" type="radio" id="fem">
+                <label for="fem">Feminino</label>
+            </div>
+        </div>
+        <div class="cases">
+            <div class="cases-log">
+                <p id="log">Já possui uma conta? <a href="#">Entre aqui</a></p>
+            </div>
         </div>
         <div class="cases">
             <button id="btn">Cadastrar</button>
